@@ -1,0 +1,21 @@
+{
+    "name": "evdobe/event-listener-plugin-skeleton",
+    "description": "A skeleton project for developing evdobe event listener plugins.",
+    "authors": [
+        {
+            "name": "Konstantinos Togias",
+            "email": "info@ktogias.gr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Application\\": "Application",
+            "Stub\\": "Stub"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpspec/prophecy": "^1.15",
+        "phpspec/prophecy-phpunit": "^2.0"
+    }
+}

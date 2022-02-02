@@ -1,4 +1,8 @@
 services:
-  hello-world:
-    container_name: hello-world
-    build: ../cont/hello-world
+  tester:
+    build: ../cont/tester
+    volumes:
+    - ../../../../dev:/code
+    environment:
+      HOST_GID: ${HOST_UID}
+      HOST_UID: ${HOST_UID}

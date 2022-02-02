@@ -1,0 +1,17 @@
+{
+    "name": "evdobe/event-listener-plugin-skeleton",
+    "description": "A skeleton project for developing evdobe event listener plugins.",
+    "authors": [
+        {
+            "name": "Konstantinos Togias",
+            "email": "info@ktogias.gr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Application\\": "Application",
+            "Stub\\": "Stub"
+        }
+    }
+}
